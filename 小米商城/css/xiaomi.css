@@ -1,0 +1,38 @@
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.hrader {
+  margin: 0 auto; }
+  .hrader .header-bottom {
+    width: 1226px;
+    margin: 0 auto; }
+    .hrader .header-bottom .bottom_banner {
+      width: 1226px;
+      margin: 0 auto;
+      position: relative;
+      color: #424242; }
+      .hrader .header-bottom .bottom_banner #bottom_nav_wrap {
+        width: 235px;
+        height: 100%;
+        float: left;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 999; }
+        .hrader .header-bottom .bottom_banner #bottom_nav_wrap li {
+          width: 100%;
+          height: 42px;
+          position: relative;
+          transition: all 3s; }
+          .hrader .header-bottom .bottom_banner #bottom_nav_wrap li a {
+            font-size: 13px;
+            color: #ffffff;
+            float: left;
+            margin-left: 28px; }
+          .hrader .header-bottom .bottom_banner #bottom_nav_wrap li .banner_a {
+            float: right;
+            margin-right: 20px;
+            font-size: 20px; }
+
+/*# sourceMappingURL=xiaomi.css.map */

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.content {
+  height: 380px;
+  width: 260px;
+  background: #585858;
+  padding: 10px 20px;
+  margin: 100px auto; }
+  .content h3 {
+    color: white;
+    padding: 20px 0; }
+  .content .content-t {
+    color: white;
+    font-size: 12px;
+    margin: 10px 0; }
+    .content .content-t:nth-of-type(1) {
+      margin-right: 60px; }
+  .content .con-b {
+    padding: 10px 0; }
+    .content .con-b span {
+      font-size: 12px;
+      color: white; }
+  .content select {
+    color: #606160;
+    width: 240px;
+    background: white;
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 20px;
+    height: 30px; }
+    .content select option i {
+      font-style: normal; }
+  .content .search {
+    height: 30px;
+    margin-top: 30px;
+    width: 240px;
+    background: #0094EF;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border: 1px solid #666666;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=indeed.css.map */
